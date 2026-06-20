@@ -6,7 +6,7 @@
 const keycloakConfig = {
   url:      'http://localhost:8080',  // e.g. https://auth.mycompany.com/auth
   realm:    'myapp-frontend',                        // e.g. myrealm
-  clientId: 'myapp-frontend',                   // e.g. myapp-frontend
+  clientId: 'myapp-frontend-2',                   // e.g. myapp-frontend-two
 }
 
 export default keycloakConfig

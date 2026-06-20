@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
+    port: 5174,
     proxy: {
       // Proxy API calls through Vite dev server to avoid CORS
       '/api': {
